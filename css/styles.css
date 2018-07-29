@@ -1,0 +1,21 @@
+#Login {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 8px;
+  position: absolute;
+  top: 650px;
+  left: 725px;
+  padding: 18px 42px;
+  font-size: 16px;
+}
+
+#SignUp {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 8px;
+  position: absolute;
+  top: 650px;
+  left: 875px;
+  padding: 18px 42px;
+  font-size: 16px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <!-- <script src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script> -->
+  <!-- <script src="bundle.js"></script> -->
+  <!-- <script type="text/javascript" src="jquery.qrcode.min.js"></script>
+  <script type="text/javascript" src="qrcode.js"></script>
+  <script src="script.js"></script>
+  <script src="main.js"></script> -->
+
+
+First name: <input id="first_name" type="text" name="FirstName" value=""><br>
+Last name: <input id="last_name" type="text" name="LastName" value=""><br>
+Email: <input id="email" type="text" name="Email" value=""><br>
+Password: <input id="password" type="password" name="Password" value=""><br>
+Payment Pin: <input id="payment_pin" type="text" name="Payment_Pin" value=""><br>
+
+
+<button type="button" onclick="newUserSignUp()">Sign Up!</button>
+<button type="button" onclick="walletID()">WalletID</button>
+<button type="button" onclick="readWalletIdFile()">readTextFile()</button>
+<button type="button" onclick="saveNewUser()">Save User</button>
+<br>
+<video id="camera-stream" width="200" height="200" ></video><br>
+<button id="start-camera" class="visible">Open the camara</button>&nbsp;<button id="take-photo" class="visible">take a picture</button>&nbsp;<button id="delete-photo" title="Delete Photo" class="disabled">redo</button>&nbsp;<button id="download-photo" download="selfie.png" title="Save Photo">file_download</button>
+<br><b>Upload a QR code: </b><input type="file" id="uploadedQR" name="pic2" placeholder="You QR code"><input type="submit" onclick="makePrintOut()">
+<div id="qrcodeCanvas" style="width:100px; height:100px; margin-top:15px;"></div><br>
+
+<img id="snap">
+<img src="black.png" id="black">
+<img src="LogoMarkBlack@10x.png" id="brand">
+<p id="error-message"></p>
+<!-- Hidden canvas element. Used for taking snapshot of video. -->
+<center><canvas height="440" width="440" id="myCanvas"></canvas></center><br>
+<center><canvas height="1800" width="1200" id="myCanvas2"></canvas></center>
+<script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<!-- <script src="bundle.js"></script> -->
+<script type="text/javascript" src="jquery.qrcode.min.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+<!-- <script src="script.js"></script> -->
+<script src="main.js"></script>
+</body>
+</html>

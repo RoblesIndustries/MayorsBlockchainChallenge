@@ -1,0 +1,23 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "App for Hackathon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "James Kirk",
+  "license": "ISC",
+  "dependencies": {
+    "blob-util": "^2.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "file-api": "^0.10.4",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.4.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.3"
+  }
+}

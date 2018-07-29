@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<style>
+body {
+    background-color: #6fccdd;
+}
+</style>
+<meta charset="utf-8">
+
+<title>The HTML5 Herald</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script> -->
+
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body ng-app="myApp">
+<div style="width: 100%; height: 100%">
+  <img src="images/DT.png" id="digi_town" style="width:178px;height:75px;"><img id="Logo" src="images/Logo_Big.png"  align="right" style="width:200px;height:118px;">
+  <br>
+  <div style="position: absolute;top:350px; left: 750px">
+  <p>Email :</p>
+  <input id="email" type="text" name="FirstName" value="" style="height:25px"><br>
+  <p>Password : </p>
+  <input id="password" type="text" name="LastName" value="" style="height:25px"><br>
+  <p id="response"></p>
+  </div>
+  <button id="Login" type="button" onclick="checkPassword()" style="position: absolute;left: 750px">Log In</button>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="login.js"></script>
+</div>
+</body>
+</html>
